@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Maddy's Recipe Realm</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navigation</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Chefs of Note</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+  <div class="container d-grid gap-3">
+    <div class="row">
+      <div class="pt-4 col">
+        <img src="images/logo.png" class="img-fluid" alt="Logo for Maddy's Recipe Realm">
+      </div>
+    </div>
+    <div class="m-2 row">
+      <div class="m-4 col">
+        <p class="p-5 bg-white border border-info border-4">
+          Hello and welcome to my Recipe Realm! My name is Maddy and I am endlessly fascinated by the culinary world. Up until about two years ago, I loved to eat but hated to cook, but was always into cooking competition shows and food media in general. I got into cooking out of necessity (eating out is expensive!), and through my exploration of the wealth of cooking content online became obsessed. Just trying is the first step - you are likely abler in the kitchen than you think you are! I aspire to one day find my place in the world of food media, but for now delight in my place in the audience. I love to share the fun recipes I learn with my loved ones, and hope you find some joy and inspiration in what I share, too.  
+        </p>
+      </div>
+      <div class="m-4 p-4 col bg-white border border-info border-4">
+        <img src="images/howie.jpg" alt="Howie the Pekingese, our beloved sous chef of days past, looking for scraps by the stove.">
+        <p class="pt-3">
+          Unfortunately, our previous sous chef, Howie, got a promotion to the kitchens of the Rainbow Bridge &#127752; He is dearly missed. Thankfully, our kitchen has been lucky enough to hire some new help:
+        </p>
+        <div class="d-grid gap-2">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Meet Our New Sous!
+          </button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Welcome to Chewie!
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="images/chewie.jpg" class="img-fluid" alt="Brown pekingese dog named Chewie smiling on a couch.">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="m-4 row row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card border border-info border-4" style="max-width: 40rem;">
+        <img src="images/spicysalad.png" class="card-img-top" alt="Image of Alison Roman's Spicy Chicken Salad with Toasted Fennel and Celery">
+          <div class="card-body">
+            <h5 class="card-title">
+              Alison Roman's Spicy Chicken Salad with Toasted Fennel and Celery
+            </h5>
+            <p class="card-text">
+              Learn to bloom whole spices for a radically flavorful vinaigrette in this super fresh and simple salad recipe. I like to use both fresh fennel and celery when I make this one. 
+            </p>
+            <a href="https://www.alisoneroman.com/recipes/spicy-chicken-salad" class="btn btn-primary">
+              Recipe Here
+            </a>
+          </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border border-info border-4" style="max-width: 40rem;">
+        <img src="images/onion.webp" class="card-img-top" alt="Image of Serious Eat's French Onion Soup">
+          <div class="card-body">
+            <h5 class="card-title">
+              Serious Eat's French Onion Soup
+            </h5>
+            <p class="card-text">
+              Master the art of properly caramelizing onions and relish in the richness of this wonderful soup! I recommend using multiple types of onions like they suggest to acheive that robust, round flavor. 
+            </p>
+            <a href="https://www.seriouseats.com/french-onion-soup-recipe" class="btn btn-primary">
+              Recipe Here
+            </a>
+          </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border border-info border-4" style="max-width: 40rem;">
+        <img src="images/greenchicken.jpg" class="card-img-top" alt="Image of Andy Baraghani's Green Goddess Chicken Thighs">
+          <div class="card-body">
+            <h5 class="card-title">
+              Andy Baraghani's Green Goddess Chicken Thighs
+            </h5>
+            <p class="card-text">
+              Learning that more than salads can be Green-Goddess-ified was a revelation for me! Here it serves as both an amazing marinade and as a sauce for when your chicken is complete. 
+            </p>
+            <a href="https://www.andybaraghani.com/recipes/green-goddess-chicken-thighs" class="btn btn-primary">
+              Recipe Here
+            </a>
+          </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border border-info border-4" style="max-width: 40rem;">
+        <img src="images/miso.jpg" class="card-img-top" alt="Image of Molly Baz's Miso Braised Chicken and Leeks.">
+            <div class="card-body">
+              <h5 class="card-title">
+                Molly Baz's Miso Braised Chicken and Leeks
+              </h5>
+              <p class="card-text">
+                If you don't keep miso on stock, you should - far from unapproachable, this paste serves as an instant umami-boost to any recipe it joins. I had never really braised anything before making this, and if you haven't either, you won't regret trying it! 
+              </p>
+              <a href="https://abcnews.go.com/GMA/Food/molly-baz-cooks-tender-miso-braised-chicken-leeks/story?id=103735246" class="btn btn-primary">
+                Recipe Here
+              </a>
+            </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border border-info border-4" style="max-width: 40rem;">
+        <img src="images/lemon.jpg" class="card-img-top" alt="Image of Alison Roman's Skillet Chicken With White Beans and Caramelized Lemon">
+        <div class="card-body">
+          <h5 class="card-title">
+            Alison Roman's Skillet Chicken With White Beans and Caramelized Lemon
+          </h5>
+          <p class="card-text">
+            This recipe opened my eyes to the wonder of bone-in, skin-on chicken thighs - the fat renders from the skin to marry with the lemons and shallots, begetting a sumptuous sauce to coat the beans/kale/chicken. All while the skin has the crispness of dreams! 
+          </p>
+          <a href="https://www.alisoneroman.com/recipes/skillet-chicken-with-white-beans-and-caramelized-lemon" class="btn btn-primary">
+            Recipe Here
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border border-info border-4" style="max-width: 40rem;">
+        <img src="images/larb.jpg" class="card-img-top" alt="Image of Andy Baraghani's Spicy Larb with Cabbage Cups.">
+          <div class="card-body">
+            <h5 class="card-title">
+              Andy Baraghani's Spicy Larb with Cabbage Cups
+            </h5>
+            <p class="card-text">
+              Thai flavors are made accessible for even the most white-bread-American of home chefs with this recipe; if you've seen Salt Fat Acid Heat, you'll notice how this recipe hits all of those core flavor profiles to build a beautiful, balanced creation. 
+            </p>
+            <a href="https://www.andybaraghani.com/recipes/spicy-larb-with-cabbage-cups" class="btn btn-primary">
+              Recipe Here
+            </a>
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer class="m-4 bg-white border border-info border-4 text-center">
+    Maddy Speake &copy; 2024
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
